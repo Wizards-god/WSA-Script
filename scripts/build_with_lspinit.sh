@@ -44,10 +44,10 @@ trap abort INT TERM
 
 default() {
     ARCH=x64
-#    CUSTOM_MODEL=redfin
-    RELEASE_TYPE=retail
+    CUSTOM_MODEL=cheetah
+    RELEASE_TYPE=WIF
     MAGISK_BRANCH=topjohnwu
-    MAGISK_VER=stable
+    MAGISK_VER=beta
     ROOT_SOL=magisk
     COMPRESS_FORMAT=none
 }
